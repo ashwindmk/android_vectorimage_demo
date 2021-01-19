@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="@color/gray">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Vectors!"
+        android:layout_marginBottom="24dp"/>
+
+    <ImageButton
+        android:id="@+id/block_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/shape_solid_circle_white"
+        android:scaleType="center"
+        android:layout_marginBottom="24dp"/>
+
+    <ImageButton
+        android:id="@+id/call_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/shape_solid_circle_white"
+        android:scaleType="center"
+        android:src="@drawable/call_back"
+        android:layout_marginBottom="24dp"
+        android:padding="8dp"/>
+
+    <ImageButton
+        android:id="@+id/message_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/shape_solid_circle_white"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_message"
+        android:layout_marginBottom="24dp"
+        android:padding="8dp" />
+
+    <ImageView
+        android:id="@+id/message_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/shape_solid_circle_white"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_message"
+        android:layout_marginBottom="24dp"
+        android:padding="8dp" />
+
+</LinearLayout>
